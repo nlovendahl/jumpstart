@@ -45,3 +45,7 @@ body {
 div {
   border: .5px solid pink;
 }
+
+.jumbotron-bike {
+  background-image: url("resources/images/jumbotron-bike.jpg");
+}

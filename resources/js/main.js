@@ -9,3 +9,5 @@ $(document).ready(function(){
     pauseOnHover: false
   });
 });
+
+var scrollLength = 0;

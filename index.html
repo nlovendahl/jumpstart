@@ -21,14 +21,14 @@
   <!--Begin Header-->
     <header>
       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
           <ul class="nav navbar-nav">
             <li class="active"><a href="explore.html">Explore</a></li>
             <li><a href="project.html">Start a project</a></li>
             <li><a href="about.html">About us</a></li>
           </ul>
 
-          <img src="resources/images/logo.png" alt="jumpstart logo" class="navbar-brand navbar-right navbar-collapse">
+          <img class="navbar-brand navbar-right collapse navbar-collapse"src="resources/images/logo.png" alt="jumpstart logo">
 
         </div>
       </nav>
@@ -36,12 +36,35 @@
     </header>
 
   <!--Begin Jumbotron-->
-  <div class="jumbotron jumbotron-bike">
-    <h1>Get Going.</h1>
+  <div class="carousel">
+    <div class="jumbotron jumbotron-bike">
+      <h1>GET GOING.</h1>
 
-    <h4>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</h4>
+      <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
 
-    <span><a href="project.html">Jump in</a></span>
+      <span class="btn btn-primary btn-lg"><a href="project.html">Jump in</a></span>
+    </div>
+
+    <div class="jumbotron jumbotron-beer">
+      <h1>GET THINKING.</h1>
+      <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+
+      <span class="btn btn-primary btn-lg"><a href="project.html">Jump in</a></span>
+    </div>
+
+    <div class="jumbotron jumbotron-flowers">
+      <h1>GET CREATING.</h1>
+      <p>Stop overthinking projects and begin putting them out into the world.</p>
+
+      <span class="btn btn-primary btn-lg"><a href="project.html">Jump in</a></span>
+    </div>
+
+    <div class="jumbotron jumbotron-duffel">
+      <h1>GET STARTED.</h1>
+      <p>What are you waiting for? Today's the day for your next big idea.</p>
+
+      <span class="btn btn-primary btn-lg"><a href="project.html">Jump in</a></span>
+    </div>
   </div>
 
   <!--Begin Featured-->
@@ -123,10 +146,11 @@
 
   <!--Begin Footer-->
   <footer>
-    <h2>Having trouble thinking of an idea?</h2>
-    <p>Inventor's block strikes aat the worst times. But that's all changed with Jumpstart's Good Idea Generator Lit (GIGLi).</span>
-
-    <span><a href="ideas.html">Learn More</a></span>
+    <div class="container-fluid">
+      <h2><strong>Having trouble thinking of an idea?</strong></h2>
+      <p>Inventor's block strikes aat the worst times. But that's all changed with Jumpstart's Good Idea Generator Lit (GIGLi).</span>
+      <span class="btn btn-primary btn-lg"><a href="ideas.html">Learn More</a></span>
+    </div>
  </footer>
 
 <!--Begin JS Links-->

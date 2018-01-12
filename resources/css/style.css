@@ -41,9 +41,20 @@ div {
   border: .5px solid pink;
 }
 
-.jumbotron .jumbotron-bike {
-  padding: 11.85rem 0;
-  background-image: url('desktop/web_projects/jumpstart/resources/images/jumbotron-bike.jpg');
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
 }
 
 h1 {

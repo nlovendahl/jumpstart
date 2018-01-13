@@ -46,6 +46,21 @@ div {
   border: .5px solid pink;
 }
 
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.categories h5 {
+  color: #399bd1;
+}
+
 /* Nav Overrides */
 
 .navbar-default .navbar-nav {
@@ -104,15 +119,15 @@ div {
 /* Button Overrides */
 
 .btn-primary {
+  display: block; /* Makes button float over carousel */
+  margin: 0 auto; /* Centers button on page */
   font-size: 1.1rem;
   width: 11.4rem;
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
   padding: 1.3rem 0;
   position: relative;
   top: -15rem;
-  float: none;
 }
 
 .btn-primary:hover {
@@ -121,4 +136,13 @@ div {
 
 .btn-primary:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Images */
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  opacity: 0.8;
 }

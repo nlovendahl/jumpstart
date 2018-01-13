@@ -205,3 +205,11 @@ footer .btn-primary {
   }
 
 }
+
+@media screen and (min-width: 480px) {
+
+  .container .project {
+    margin-bottom: 5.85rem;
+  }
+
+}
